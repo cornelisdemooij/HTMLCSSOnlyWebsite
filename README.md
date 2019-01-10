@@ -1,4 +1,4 @@
-# HTMLOnlyWebsite
+# HTMLCSSOnlyWebsite
 Simple website that only uses HTML and CSS.
 
 ## How to run
