@@ -29,15 +29,23 @@ p {
 
 .navigation {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 100%;
+    max-width: 1400px;
+    overflow: hidden;
     background-color: rgb(41, 42, 37);
+    text-transform: uppercase;
+}
+.navigation li {
+    display: inline;
 }
 .navigation li a {
-    display: block;
     color: #fff;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
 .navigation li a:hover {
     background-color: rgb(211, 211, 219);
