@@ -1,0 +1,62 @@
+body {
+    margin: 0px; 
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+.banner {
+    background: url("images/linkedin background.png") no-repeat center;
+}
+
+.portrait {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+}
+
+.name {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+p {
+    margin: 20px 40px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 42, 37);
+}
+.navigation li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    background-color: rgb(211, 211, 219);
+    color: black;
+}
+.navigation .active {
+    background-color: rgb(216, 193, 158);
+    color: white;
+}
+
+.history {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+.history li b {
+    color: #D42525;
+}
+
+q {
+    font-style: italic;
+}
