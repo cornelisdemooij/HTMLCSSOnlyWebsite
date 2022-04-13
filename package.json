@@ -1,13 +1,24 @@
 {
-  "name": "html-only-website",
-  "version": "1.0.0",
-  "description": "",
+  "name": "html-css-only-website",
+  "version": "1.0.1",
+  "description": "A simple example website, built using only HTML and CSS.",
   "main": "index.html",
   "scripts": {
-    "start": "polymer serve"
+    "start": "web-dev-server --open / --app-index index.html --node-resolve",
+    "start:watch": "web-dev-server --open / --app-index index.html --node-resolve --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornelisdemooij/HTMLCSSOnlyWebsite.git"
+  },
+  "keywords": [
+    "Frontend",
+    "Website",
+    "Example"
+  ],
+  "private": false,
   "devDependencies": {
-    "polymer-cli": "^1.9.11"
+    "@web/dev-server": "^0.1.30"
   },
   "author": "Cornelis de Mooij",
   "license": "ISC"
